@@ -1,0 +1,4 @@
+Name: godoist-api
+Host: 0.0.0.0
+Port: 8888
+DataSource: postgres://postgres:AGt6NNYKtOtG0q6@godoistdb.flycast:5432

@@ -1,0 +1,10 @@
+syntax = "v1"
+
+type LoginResponse {
+	Message string `json:"message"`
+}
+
+service godoist-api {
+	@handler LoginHandler
+	post /login returns (LoginResponse)
+}

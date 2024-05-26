@@ -1,0 +1,10 @@
+syntax = "v1"
+
+type UserResponse {
+	Message string `json:"message"`
+}
+
+service godoist-api {
+	@handler UserHandler
+	get /users returns (UserResponse)
+}
